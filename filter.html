@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<title>html</title>
+
+	<link rel="stylesheet" type="text/css" href="plugins/SlickSlider/slick/slick.css"/>
+	<link rel="stylesheet" href="plugins/mobile-menu/demo/css/demo.css" />
+	<link rel="stylesheet" href="plugins/mobile-menu/dist/css/jquery.mmenu.all.css" />
+	<link href="plugins/BootstrapSelect/bootstrap-select.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css" media="screen">
+	<link rel="stylesheet" href="plugins/Likely-master/likely.css">
+	<link type="text/css" href="css/main.css" rel="stylesheet" media="all" />
+	<link rel="stylesheet" href="css/style.css"></head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+
+<body>
+	<div class="all-content">
+		<header class="second-page-border">
+			<div class="container">
+				<div class="logo"></div>
+				<div class="right-mns">
+					<div class="top-menu">
+						<div class="office-area fll">
+							<a href="#">Офисы продаж</a>
+						</div>
+						<div class="tel-nsr fll hidden-xs"> <b>+</b>
+							7 (800) 5555-166,
+							<span>Бесплатный звонок по России</span>
+						</div>
+						<div class="tel-nsr fll hidden-xs"> <b>+</b>
+							7 (484) 395-24-24 <strong>с 9 до 18, вых. – Сб., Вс.</strong>
+						</div>
+						<a href="mailto:info@scitygr.ru" class="inf-ps fll">info@scitygr.ru</a>
+						<div class="zvn-btn"  data-toggle="modal" data-target="#callModal">Заказать звонок</div>
+					</div>
+					<div class="bottom-menu hidden-xs">
+						<ul class="menu-bottom">
+							<li>
+								<a href="#">О жилом комплексе</a>
+							</li>
+							<li>
+								<a href="#">Квартиры и цены</a>
+							</li>
+							<li>
+								<a href="#">Коммерческие площади</a>
+							</li>
+							<li>
+								<a href="#">Как купить</a>
+							</li>
+							<li>
+								<a href="#">Инфраструктура</a>
+							</li>
+							<li>
+								<a href="#">Фотогалерея</a>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="mobile-menu hidden-sm hidden-md hidden-lg">
+					<div class="header">
+						<a href="#menu">
+							<span></span>
+						</a> <strong class="logo"></strong>
+						<strong class="tel-mob" style="color: #000;">+7 (800) 5555-166 / +7 (484) 395-24-24</strong>
+					</div>
+					<nav id="menu">
+						<ul class="menu-bottom">
+							<li>
+								<a href="#">О жилом комплексе</a>
+							</li>
+							<li>
+								<a href="#">Квартиры и цены</a>
+							</li>
+							<li>
+								<a href="#">Коммерческие площади</a>
+							</li>
+							<li>
+								<a href="#">Как купить</a>
+							</li>
+							<li>
+								<a href="#">Инфраструктура</a>
+							</li>
+							<li>
+								<a href="#">Фотогалерея</a>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</header>
+
+		<section class="kvs-area">
+			<div class="container">
+				<h1>Подбор квартиры</h1>
+			
+				<div class="pdb-area">
+					<div class="filter">
+						<div class="checkbox checkbox1 cbx6">
+			<input id="check1" type="radio" name="check" value="check1">
+			<label for="check1">6-этажный дом (с лифтом)</label>
+		
+	</div>
+	<!--
+			<div class="checkbox">
+			<input id="check2" type="checkbox" name="check" value="check2">
+			<label for="check2">с лифтом</label>
+	</div>
+
+--><br>
+
+				<div class="checkbox checkbox1 cbx4">
+			<input id="check3" type="radio" name="check" value="check3">
+			<label for="check3">4-этажный дом (без лифта)</label>
+		
+	</div>
+	<!--
+			<div class="checkbox">
+			<input id="check4" type="checkbox" name="check" value="check4">
+			<label for="check4">без лифта</label>
+	</div>
+-->
+
+	<div class="main">
+		<form action="#" method="post">
+			<div class="formCost">
+			<input type="text" id="minCost" value="12500"/>
+				<label for="maxCost">—</label> <input type="text" id="maxCost" value="370050"/> руб.
+			</div>
+			<div class="sliderCont">
+					<div id="slider">
+						<div class="slx1">12 500</div>
+						<div class="slx2">185 990</div>
+						<div class="slx3">370 050</div>
+					</div>
+			</div>
+		</form>
+	</div>
+
+
+	<div class="main mnt-1 hidden-4" style="display: block;">
+		<form action="#" method="post">
+			<div class="formCost">
+			<input type="text" id="minCost2" value="1"/>
+				<label for="maxCost2">—</label> <input type="text" id="maxCost2" value="6"/> этаж
+			</div>
+			<div class="sliderCont">
+					<div id="slider2">
+						<div class="slx1">1</div>
+						<div class="slx2">3</div>
+						<div class="slx3">6</div>
+					</div>
+			</div>
+		</form>
+	</div>
+
+
+
+
+<div class="main mnt-1 hidden-6">
+		<form action="#" method="post">
+			<div class="formCost">
+			<input type="text" id="minCost2" value="1"/>
+				<label for="maxCost2s">—</label> <input type="text" id="maxCost2s" value="4"/> этаж
+			</div>
+			<div class="sliderCont">
+					<div id="slider2s">
+						<div class="slx1">1</div>
+						<div class="slx2">2</div>
+						<div class="slx3">4</div>
+					</div>
+			</div>
+		</form>
+	</div>
+
+
+
+		<div class="main mnt-1 xxv">
+		<form action="#" method="post">
+			<div class="formCost">
+			<input type="text" id="minCost3" value="1"/>
+				<label for="maxCost3">—</label> <input type="text" id="maxCost3" value="6"/> м<span class="qv2">2</span>
+			</div>
+			<div class="sliderCont">
+					<div id="slider3">
+						<div class="slx1">1</div>
+						<div class="slx2">3</div>
+						<div class="slx3">6</div>
+					</div>
+			</div>
+		</form>
+	</div>
+
+
+
+
+		<div class="checkbox">
+			<input id="checks3" type="checkbox" name="check" value="checks3">
+			<label for="checks3">1 комната</label>
+		
+	</div>
+			<div class="checkbox">
+			<input id="checks4" type="checkbox" name="check" value="checks4">
+			<label for="checks4">2 комнаты</label>
+	</div>
+
+
+
+
+		<button class="send-btn">Подобрать</button>
+
+
+					</div>
+					<div class="table-st">
+						<table>
+							<thead>
+								<tr>
+									<td>Комнат<strong class="arrow-d"></strong></td>
+									<td>Площадь</td>
+									<td>Дом</td>
+									<td>Этаж</td>
+									<td>Подъезд</td>
+									<td>Стоимость</td>
+									<td></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr><tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr><tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr><tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr><tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr><tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr><tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr><tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr><tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr><tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr><tr>
+									<td>1к</td>
+									<td>53,21 м<span>2</span></td>
+									<td>6-этажный</td>
+									<td>3</td>
+									<td>3</td>
+									<td>2 143 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>2к</td>
+									<td>23,11 м<span>2</span></td>
+									<td>3-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>1 234 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+								<tr>
+									<td>3к</td>
+									<td>63,21 м<span>2</span></td>
+									<td>12-этажный</td>
+									<td>2</td>
+									<td>1</td>
+									<td>7 233 000 руб.</td>
+									<td><a href="#">Подробней</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="footer-main">
+			<div class="container">
+				<h2>Свяжитесь с нами</h2>
+				<div class="row">
+					<div class="col-sm-7">
+						<form action="">
+							<div class="row-alighn">
+								<div class="w33">
+									<input type="text" placeholder="Ваше имя"></div>
+								<div class="w33">
+									<input type="text" placeholder="Телефон"></div>
+								<div class="w33">
+									<input type="text" placeholder="Электронная почта"></div>
+							</div>
+							<div class="text-ar">
+								<textarea name="" placeholder="Что вы хотели узнать" id="" cols="30" rows="10"></textarea>
+							</div>
+							<button class="send-btn">Отправить</button>
+						</form>
+					</div>
+					<div class="col-sm-5">
+						<div class="txt-top-nh">
+							<p>
+								249032, Калужская обл.,
+								<br>г. Обнинск, ул. Энгельса, д. 9/20</p>
+							<div class="tel-area">
+								<span>+</span>
+								7
+								<span>(</span>
+								484
+								<span>)</span>
+								395-24-24
+							</div>
+							<div class="tel-area">
+								8
+								<span>(</span>
+								800
+								<span>)</span>
+								5555-160
+							</div>
+							<div class="map-bottom">
+								<img src="img/maps.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="bottom-footer-area">
+					<div class="fll-footer">
+						<span>
+							© 2016 Строй Сити Групп
+							<b class="blk"><a href="#">Создание сайта</a>
+								- Белый Кот</b> 
+						</span>
+						<a href="#">Карта сайта</a>
+						<a href="#">Техническая поддержка</a>
+					</div>
+					<div class="flr-footer">
+						<div class="soc-area">
+							<div class="likely" data-url="http://ilyabirman.ru/">
+
+								<div class="gplus"></div>
+								<div class="vkontakte"></div>
+								<div class="odnoklassniki"></div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+	
+
+
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script src="plugins/SlickSlider/slick/slick.js"></script>
+		<script src="plugins/Likely-master/likely.js"></script>
+		<script src="plugins/Bootstrap/bootstrap.js"></script>
+		<script src="plugins/mobile-menu/dist/js/jquery.mmenu.all.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="js/jquery.main.js"></script>
+		<script src="js/index.js"></script>
+
+
+
+
+
+<style>
+	input#minCost2s, input#maxCost2s {
+    width: 44px;
+    text-align: left;
+    background: #ffffff;
+    padding: 12px;
+}
+.main.mnt-1.hidden-4{
+	display: none;
+}
+.main.mnt-1.hidden-6{
+	display: none;
+}
+.main.mnt-1.hidden-6.str-full{
+	display: none;
+}
+.main.mnt-1.hidden-4.str-full{
+	display: none;
+}
+input[type=radio]:checked + label:after {
+    content: "";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #f3f3f3;
+    text-align: center;
+    line-height: 15px;
+    width: 23px;
+    height: 22px;
+    background: url(img/cv.png) 0 0 no-repeat;
+    display: block;
+    position: absolute;
+    left: 3px;
+    top: -3px;
+}
+</style>
+
+
+
+
+<script>
+	
+	
+/* слайдер цен */
+
+jQuery("#slider2s").slider({
+	min: 1,
+	max: 4,
+	values: [1,4],
+	range: true,
+	stop: function(event, ui) {
+		jQuery("input#minCost2s").val(jQuery("#slider2s").slider("values",0));
+		jQuery("input#maxCost2s").val(jQuery("#slider2s").slider("values",1));
+		
+    },
+    slide: function(event, ui){
+		jQuery("input#minCost2s").val(jQuery("#slider2s").slider("values",0));
+		jQuery("input#maxCost2s").val(jQuery("#slider2s").slider("values",1));
+    }
+});
+
+jQuery("input#minCost2").change(function(){
+
+	var value1=jQuery("input#minCost2s").val();
+	var value2=jQuery("input#maxCost2s").val();
+
+    if(parseInt(value1) > parseInt(value2)){
+		value1 = value2;
+		jQuery("input#minCost2s").val(value1);
+	}
+	jQuery("#slider2s").slider("values",0,value1);	
+});
+
+	
+jQuery("input#maxCost2s").change(function(){
+		
+	var value1=jQuery("input#minCost2s").val();
+	var value2=jQuery("input#maxCost2s").val();
+	
+	if (value2 > 5) { value2 = 5; jQuery("input#maxCost2s").val(5)}
+
+	if(parseInt(value1) > parseInt(value2)){
+		value2 = value1;
+		jQuery("input#maxCost2s").val(value2);
+	}
+	jQuery("#slider2s").slider("values",1,value2);
+});
+
+
+
+	
+	
+	// mobile menu
+
+jQuery('.cbx6').click(function() { 
+     jQuery('.hidden-4').css("display","block");
+     jQuery('.hidden-6').css("display","none");  
+});
+
+jQuery('.cbx4').click(function() { 
+     jQuery('.hidden-6').css("display","block");
+     jQuery('.hidden-4').css("display","none");  
+});
+
+		
+</script>
+
+	</div>
+</body>
+</html>
